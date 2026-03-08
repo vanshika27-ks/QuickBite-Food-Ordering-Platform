@@ -29,7 +29,7 @@ function About() {
             <i className="fa-brands fa-github"></i> GitHub
           </a>
 
-          <a href="https://linkedin.com/in/vanshikasalaria" target="_blank">
+          <a href="https://linkedin.com/in/vanshikasalaria" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-linkedin"></i> LinkedIn
           </a>
 

@@ -177,7 +177,7 @@ return(
 
 <div className="restaurant-slider">
 
-{restaurants.map((item,index)=>(
+{filteredRestaurants.map((item,index)=>(
 <div className="restaurant-card" key={index}>
 
 <img src={item.image} alt="" />

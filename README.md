@@ -1,3 +1,9 @@
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Node](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb)
+![Express](https://img.shields.io/badge/API-Express-black?logo=express)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🍔 QuickBite – Full Stack Food Ordering Platform
 
 QuickBite is a **full-stack food ordering web application** inspired by platforms like **Swiggy and Zomato**.

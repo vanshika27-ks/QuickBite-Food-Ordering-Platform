@@ -203,8 +203,6 @@ http://localhost:5000
 Create a `.env` file inside the backend folder.
 
 ```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
 PORT=5000
 ```
 

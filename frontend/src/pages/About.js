@@ -25,7 +25,7 @@ function About() {
 
         <div className="social-buttons">
 
-          <a href="https://github.com/vanshika27-ks" target="_blank">
+          <a href="https://github.com/vanshika27-ks/QuickBite-Food-Ordering-Platform" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-github"></i> GitHub
           </a>
 

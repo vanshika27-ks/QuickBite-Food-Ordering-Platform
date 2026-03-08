@@ -165,19 +165,9 @@ function TopRestaurants({ category, search }){
         }
         
         ];
-        const filteredRestaurants = restaurants.filter((r)=>{
-
-            const matchesCategory =
-            category === "All" ||
-            r.cuisine.toLowerCase().includes(category.toLowerCase());
-            
-            const matchesSearch =
-            r.name.toLowerCase().includes(search.toLowerCase()) ||
-            r.cuisine.toLowerCase().includes(search.toLowerCase());
-            
-            return matchesCategory && matchesSearch;
-            
-            });
+        const filteredRestaurants = restaurants.filter((restaurant) =>
+            restaurant.name.toLowerCase().includes(search?.toLowerCase() || "")
+            );
 
 return(
 

@@ -19,7 +19,7 @@ const placeOrder = async ()=>{
 try{
 
 await axios.post(
-"http://localhost:5000/api/orders",
+"https://quickbite-food-ordering-platform.onrender.com/api/orders",
 {
 items: cart,
 total: total

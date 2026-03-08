@@ -1,0 +1,26 @@
+.hero-section{
+    background:#ff5200;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+    }
+    
+    .search-box{
+    margin-top:20px;
+    }
+    
+    .search-box input{
+    padding:12px;
+    width:300px;
+    border:none;
+    border-radius:6px;
+    }
+    
+    .search-box button{
+    padding:12px 20px;
+    border:none;
+    background:black;
+    color:white;
+    margin-left:10px;
+    border-radius:6px;
+    }

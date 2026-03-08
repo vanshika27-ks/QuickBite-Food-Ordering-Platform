@@ -1,0 +1,58 @@
+.popular-section{
+    margin-top:40px;
+    }
+    
+    .dishes-scroll{
+    display:flex;
+    gap:20px;
+    overflow-x:auto;
+    padding:10px 0;
+    scrollbar-width:none;
+    }
+    
+    .dishes-scroll::-webkit-scrollbar{
+    display:none;
+    }
+    
+    .dish-card{
+    min-width:220px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    overflow:hidden;
+    transition:transform 0.2s;
+    }
+    
+    .dish-card:hover{
+    transform:scale(1.05);
+    }
+    
+    .dish-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    }
+    
+    .dish-info{
+    padding:12px;
+    }
+    
+    .dish-info h3{
+    font-size:16px;
+    margin-bottom:8px;
+    }
+    
+    .dish-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+    
+    .dish-bottom button{
+    background:#ff5a00;
+    border:none;
+    color:white;
+    padding:6px 12px;
+    border-radius:6px;
+    cursor:pointer;
+    }

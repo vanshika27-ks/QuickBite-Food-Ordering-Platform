@@ -1,0 +1,79 @@
+.menu-page{
+    padding:60px 120px;
+    }
+    
+    .restaurant-header{
+    margin-bottom:30px;
+    }
+    
+    .menu-title{
+    margin-bottom:20px;
+    }
+    
+    .menu-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    }
+    
+    .menu-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    }
+    
+    .menu-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    }
+    
+    .menu-info{
+    padding:15px;
+    }
+    
+    .menu-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    }
+    
+    .price{
+    font-weight:bold;
+    }
+    
+    .add-btn{
+    background:#ff5200;
+    color:white;
+    border:none;
+    padding:6px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    }
+    
+    .menu-card:hover{
+    transform:translateY(-5px);
+    }
+
+    .menu-categories{
+        display:flex;
+        gap:15px;
+        margin-bottom:25px;
+        }
+        
+        .menu-categories button{
+        padding:8px 16px;
+        border:none;
+        background:#f2f2f2;
+        border-radius:20px;
+        cursor:pointer;
+        font-weight:500;
+        }
+        
+        .menu-categories button:hover{
+        background:#ff5200;
+        color:white;
+        }

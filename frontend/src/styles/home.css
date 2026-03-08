@@ -1,0 +1,39 @@
+.restaurant-section{
+    padding:60px 120px;
+    }
+    
+    .restaurant-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:25px;
+    }
+    
+    .restaurant-card{
+        background:white;
+        border-radius:10px;
+        overflow:hidden;
+        box-shadow:0 4px 15px rgba(0,0,0,0.1);
+        cursor:pointer;
+        transition:transform 0.3s, box-shadow 0.3s;
+        }
+        
+    
+    .restaurant-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    }
+    
+    .restaurant-info{
+    padding:15px;
+    }
+    
+    .restaurant-info h3{
+    margin-bottom:5px;
+    }
+    
+    .restaurant-card:hover{
+        transform:translateY(-8px);
+        box-shadow:0 10px 25px rgba(0,0,0,0.15);
+        }

@@ -15,8 +15,8 @@ This project demonstrates **end-to-end full-stack development**, integrating a r
 
 # 🚀 Live Demo
 
-Frontend: *(Add after deployment)*
-Backend API: *(Add after deployment)*
+Frontend: *https://quick-bite-food-ordering-platform-j.vercel.app/*
+Backend API: *https://quickbite-food-ordering-platform.onrender.com*
 
 ---
 
